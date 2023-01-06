@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .header{
@@ -28,9 +30,130 @@
 }
 .primary-btn{
     color: white;
-    background-color:darkturquoise;
+    background-color:#ff6600;
     border: 0;
     font-size: 30px;
-    padding: 10px;
+    padding: 20px 20px;
     border-radius: 10px;
+    margin: 20px 20px;
+}
+/* Donate */
+.donate{
+    padding-top: 150px;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.donate-title{
+    font-size: 50px;
+
+}
+.taka{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    border: 10px;
+    font-size: 40px;
+    padding: 50px;
+    color: grey; 
+}
+.donate-description{
+    font-size: 30px;
+    padding: 20px 500px;
+    color: grey;
+}
+.taka .amount-1{
+text-decoration: solid;
+background-color: #F5F5F5;
+padding: 60px 50px;
+border-radius: 10px;
+}
+.taka .amount-2{
+    border-style: solid;
+    border-color: red;
+text-decoration: solid;
+background-color: #FFCCCB;
+padding: 60px 50px;
+border-radius: 10px;
+color: #FF6863;
+
+
+}
+.taka .amount-3{
+text-decoration: solid;
+background-color: #F5F5F5;
+padding: 60px 50px;
+border-radius: 10px;
+}
+.taka .amount-4{
+text-decoration: solid;
+background-color: #F5F5F5;
+padding: 60px 30px;
+border-radius: 10px;
+}
+.taka .amount-5{
+text-decoration: solid;
+background-color: #F5F5F5;
+padding: 60px 30px;
+border-radius: 10px;
+}
+.donate .other-amount{
+    color: grey;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+hr{
+    margin: 0 350px;
+    
+}
+/* donate planes */
+.donate-plan{
+    text-align: center;
+}
+.donate-plan-title{
+font-size: large;
+}
+.donate-plan-description{
+    font-size: 20px;
+    padding: 20px 500px;
+    color: grey;
+}
+.plans{
+    display: flex;
+    margin: 30px 150px;
+
+}
+.plan-food{
+background-color:#edf5f6;
+padding: 5%;
+    margin: 20px;
+    font-size: 25px;
+}
+.plan-food .title{
+padding: 20px 0;
+}
+.plan-shelter{
+    background-color:#ffeeee;
+    padding: 5%;
+    margin: 20px;
+    font-size: 25px;
+    
+
+}
+.plan-shelter .title{
+    padding: 20px 0;
+}
+.plan-education{
+    background-color:#fff4d6;
+    padding: 5%;
+    margin: 20px;
+    font-size: 25px;
+}
+.plan-education .title{
+    padding: 20px 0;
+}
+.description{
+    color: grey;
 }
