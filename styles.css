@@ -157,3 +157,47 @@ padding: 20px 0;
 .description{
     color: grey;
 }
+/* Main Body */
+.main-body{
+    row-gap: 100px;
+}
+.part-one{
+    display: flex;
+    gap: 50px;
+ 
+}
+.part-two{
+    display: flex;
+    gap: 50px;
+ 
+}
+
+.main-image-1{
+    size: 100%;
+padding: 100px 50px 100px 50px;
+    
+}
+
+.body-title{
+    font-size: 70px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+
+
+}
+.body-description{
+    font-size: 30px;
+    color: grey;
+}
+.body-text-one{
+    margin-left: 50px;
+}
+.body-button{
+    color: white;
+    background-color:#ff6600;
+    border: 0;
+    font-size: 30px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: 50px 0;
+}
